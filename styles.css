@@ -1,0 +1,23 @@
+.dns-url {
+    display: block;
+    background: var(--wxp-clr-dark-600);
+    border: 1px solid var(--wxp-clr-dark-300);
+    border-radius: 4px;
+    margin-block: 10px;
+    padding: 5px 10px;
+    font-family: var(--wxp-ff-mono);
+    color: var(--wxp-clr-text-100);
+}
+.dns-url::after {
+    content: attr(data-url-tag);
+    background: var(--wxp-clr-success-800);
+    border-radius: 100vh;
+    margin-inline: 10px 0;
+    padding: 2px 7px;
+    font-family: var(--wxp-ff-body);
+    font-size: 14px;
+    color: var(--wxp-clr-text-100);
+}
+.dns-url[data-recommended]::after {
+    background: var(--wxp-clr-primary-400);
+}
