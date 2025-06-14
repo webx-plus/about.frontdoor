@@ -1,17 +1,34 @@
 <html>
+    <head>
+        <title>About WebX+</title>
+        <link href="https://webxplus.org/favicon.png">
+        <link href="/styles.css">
 
-<head>
-    <title>About WebX+</title>
-    <link href="https://cdn.pixabay.com/photo/2021/10/17/14/47/windows-7-logo-6718525_1280.png">
+        <meta name="theme-color" content="#f54278">
+        <meta name="description" content="Welcome to WebX+">
+    </head>
 
-    <meta name="theme-color" content="#7289da">
-    <meta name="description" content="About WbX+">
-</head>
-
-<body>
-    <h1>WebX+</h1>
-
-    
-</body>
-
+    <body>
+        <p class="h2">Welcome to WebX+!</p>
+        <p>WebX+ is a superset of WebX, a project by FaceDev.</p>
+        <br>
+        <h2 class="h3">Using WebX+</h2>
+        <p>To use webX+ you need a WebX browser that supports custom DNS. We recommend <a href="https://github.com/codingMASTER398/bussinga" target="_blank">Bussinga</a>.</p>
+        <p>Open the settings for your browser and find the option to input custom DNS. We recommend you use the following DNS URL:</p>
+        <p class="dns-url" data-recommended data-url-tag="Recommended">https://dns.webxplus.org</p>
+        <p>This URL will automatically move over to the secondary DNS server if the primary DNS server is unavailable.</p>
+        <p>If your broswer requires 2 DNS URLs, or you wish to only use a specific server, you can use these URLs instead:</p>
+        <p class="dns-url" data-url-tag="Primary">https://dns-one.webxplus.org</p>
+        <p class="dns-url" data-url-tag="Secondary">https://dns-two.webxplus.org</p>
+        <p>Then save your settings. You may need to clear your DNS cache or restart your browser as well</p>
+        <p>You can now access WebX+ domains, such as <a href="buss://search.frontdoor">search.frontdoor</a>, our search engine for both WebX and WebX+ domains</p>
+        <br />
+        <h2 class="h3">Registrars</h2>
+        <p>We provide an offical registrar for WebX+ domains, however we also allow users to build their own registrars.</p>
+        <p>In order to use the DNS API, you will need a Registrar Key, which can be issued by contacting us on <a href="https://discord.gg/ZUWMayNJgY">Discord</a>.</p>
+        <p>More information can be found <a href="https://dns.webxplus.org" target="_blank">here</a>. You can also checkout the source code for our registrar, written in Astro <a href="https://github.com/webx-plus/registrar" target="_blank">on github</a>.</p>
+        <br />
+        <h2 class="h3">The buss:// protocol</h2>
+        <p>The buss:// protocol is a custom protocol that allows you to access WebX+ domains from your browser.</p>
+    </body>
 </html>
